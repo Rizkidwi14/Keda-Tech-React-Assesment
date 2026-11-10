@@ -1,12 +1,91 @@
-# React + Vite
+# Keda Tech React Assesment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies Used
 
-Currently, two official plugins are available:
+| Technology | Purpose |
+|---|---|
+| React.js | Building reusable UI components |
+| Vite | Development environment and build tool |
+| Sass (SCSS) | Styling and CSS organization |
+| Radix UI | Accessible UI components, including the login dialog |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation and Setup
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Make sure you have installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Rizkidwi14/Keda-Tech-React-Assesment.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Keda-Tech-React-Assesment
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+## Production Build
+
+To create an optimized production build, run:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+StockUp/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Features.jsx
+│   │   ├── Pricing.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   └── Login.jsx
+│   ├── styles/
+│   │   ├── main.scss
+│   │   └── variables.scss
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+└── README.md
+```
